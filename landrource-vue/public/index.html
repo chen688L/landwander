@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main1119.css" />
+  
+  <script type="text/javascript">
+    window._AMapSecurityConfig = {
+        securityJsCode:'932e55a3e793656b8da5859b77a8e809',
+    }
+</script>
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=63643c1b0bc713f38ee4c20a302d3140&plugin=AMap.DistrictSearch,AMap.Geocoder,AMap.DistrictLayer,AMap.Autocomplete,AMap.PlaceSearch"></script>
+  <script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

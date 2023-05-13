@@ -1,0 +1,369 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "land transfer",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/register/identify",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/fenlei/fenlei",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天记录"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/myuser/myuser",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/issue/issue",
+			"style": {}
+		},
+		{
+			"path": "pages/homeDetail/homeDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+
+			}
+		},
+		{
+			"path": "pages/homeDetail/searchLand",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/myuser/setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "土流资讯",
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		}, 
+		{
+			"path": "pages/complain/complain",
+			"style": {
+				"navigationBarTitleText": "举报虚假"
+			}
+		}
+	    ,{
+            "path" : "pages/demandhall/demandhall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "需求大厅",
+                "enablePullDownRefresh": false,
+				"onReachBottomDistance": 50
+            }
+            
+        }
+        ,{
+            "path" : "pages/demandetail/demandetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newsdetails/newsdetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/newsdetails/searchBox",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/test/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/changeInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/myuser/myLand",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的土地",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/myuser/help",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "帮助中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/myuser/aboutUs",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的土地",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/issue/addland",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布土地",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/issue/addDemand",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发布需求",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/issue/addLandimg",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "上传图片/凭证",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/homeDetail/searchBox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/test/areaSelect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/myCollect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/myDemand",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的需求",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/demandhall/selectBox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/safe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号与安全",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/updatePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/landCircle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/contract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "合同范本",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/oneUserLand/oneUserLand",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myuser/help/lc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "land transfer",
+		"navigationBarBackgroundColor": "#FFCC33",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		// tab 上的文字默认颜色
+		"selectedColor": "#FFCC33",
+		// tab 上的文字选中时的颜色
+		"borderStyle": "black",
+		// tabbar 上边框的颜色，可选值 black/white
+		"backgroundColor": "#ffffff",
+		// tab 的背景色
+		"list": [{
+				// 最少2个、最多5个 tab
+				"pagePath": "pages/home/home",
+				"iconPath": "static/home.png",
+				// 建议尺寸为 81px * 81px
+				"selectedIconPath": "static/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/fenlei/fenlei",
+				"iconPath": "static/type.png",
+				"selectedIconPath": "static/type_active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/issue/issue",
+				"iconPath": "static/fb.png",
+				"selectedIconPath": "static/fb_active.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/message.png",
+				"selectedIconPath": "static/message_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/myuser/myuser",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
